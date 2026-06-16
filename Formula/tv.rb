@@ -1,28 +1,28 @@
 class Tv < Formula
   desc "Is your build's speed real throughput, or just thrashing? A git-status for build-flow health"
   homepage "https://github.com/onebit0fme/terminal-velocity"
-  version "0.2.0"
+  version "0.3.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/onebit0fme/terminal-velocity/releases/download/v0.2.0/tv-aarch64-apple-darwin.tar.gz"
-      sha256 "5852d1bf06c6061da9033ccab7c79b8d6a97fd8e21afdbfe9e14e100a8b00a5c"
+      url "https://github.com/onebit0fme/terminal-velocity/releases/download/v0.3.0/tv-aarch64-apple-darwin.tar.gz"
+      sha256 "d694c79228ab1d0f0c0ae5419424f3acb5e0d730eb84e408731f3eae1ee27020"
     end
     on_intel do
-      url "https://github.com/onebit0fme/terminal-velocity/releases/download/v0.2.0/tv-x86_64-apple-darwin.tar.gz"
-      sha256 "74154ea945ee501c0a9fbbcefa179c7ced01eefe832ca7051d6cc3ad873d8cde"
+      url "https://github.com/onebit0fme/terminal-velocity/releases/download/v0.3.0/tv-x86_64-apple-darwin.tar.gz"
+      sha256 "aab628f40b957fa4dd8d3a1ce541f7088699d8b7b77f3801feb049bd75a78da4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/onebit0fme/terminal-velocity/releases/download/v0.2.0/tv-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "f42f75a3b068562450bde221c25ff28513ce0b05e1b738b58c5a94a47bf50967"
+      url "https://github.com/onebit0fme/terminal-velocity/releases/download/v0.3.0/tv-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "ac3976b991c4afb3987e2c538af75cd7e2217ff094276c20821df0a687bd29ba"
     end
     on_intel do
-      url "https://github.com/onebit0fme/terminal-velocity/releases/download/v0.2.0/tv-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "061bc29cee29c347beb065209ee5b784dc06716463325b7594a77d86bc762cb3"
+      url "https://github.com/onebit0fme/terminal-velocity/releases/download/v0.3.0/tv-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "76ff48db103be2182cd705b5774d4df280e0c910247bc93d291519d386c2787f"
     end
   end
 
